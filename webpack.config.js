@@ -20,6 +20,10 @@ module.exports = {
                 use: ['@svgr/webpack','url-loader'],
                 exclude: /node_modules/
             },
+            {
+                test:/\.css$/,
+                use:['style-loader','css-loader?modules=true&camelCase=true']
+            }
         ]
     },
     plugins: [

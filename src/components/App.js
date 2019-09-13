@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import background from './assets/background.svg';
+import Background from './pages/Home/index';
+
 
 class App extends Component {
     render() {
         return (
-            <img src={background} alt="ImgFundo" />
+            <Background  />
         )
     }
 }

@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -20,9 +19,8 @@ module.exports = {
         use: ["@svgr/webpack", "url-loader"]
       },
       {
-       
         test: /\.css$/,
-        use: ["style-loader","url-loader"]
+        use: ["style-loader", "url-loader"]
       }
     ]
   },

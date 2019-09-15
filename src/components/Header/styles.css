@@ -1,0 +1,24 @@
+.grid-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.grid-container > div {
+    background: red;
+    margin-top: 6px;
+}
+
+.logo {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.avatar {
+    grid-column-end: 8;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+}

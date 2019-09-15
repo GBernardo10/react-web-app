@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0 !important;
+    outline: 0 !important;
+    box-sizing: border-box !important;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+}
+
+body,
+input,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
